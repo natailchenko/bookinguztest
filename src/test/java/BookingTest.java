@@ -1,7 +1,20 @@
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageobjects.HomePage;
 
 public class BookingTest extends BaseTest {
+
+    @DataProvider
+    public Object[][] testData() {
+        //retrive data from
+        return new Object[][] {
+                //from, to
+                {"Киев","Львов"},
+                {"Киев","Одесса"},
+                {"Киев","Харьков"},
+                {"Киев","Мариуполь"}
+        };
+    }
 
     @Test
     public void testOpenSite() throws InterruptedException {
