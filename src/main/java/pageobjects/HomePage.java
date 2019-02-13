@@ -14,7 +14,7 @@ import java.util.List;
 
 public class HomePage {
 
-    private AppiumDriver<MobileElement> driver;
+    protected AppiumDriver<MobileElement> driver;
     private By inputFrom = By.xpath("//input[@name='from-title']");
     private By inputTo = By.xpath("//input[@name='to-title']");
     private By submit = By.cssSelector("button[type='submit']");

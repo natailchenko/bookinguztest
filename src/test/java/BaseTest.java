@@ -12,7 +12,6 @@ import java.net.URL;
 public class BaseTest {
 
     protected AppiumDriver<MobileElement> driver;
-
     @BeforeSuite
     public void setEnvironment() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();

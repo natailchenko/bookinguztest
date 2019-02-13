@@ -21,6 +21,16 @@
     </build>
     <dependencies>
         <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.0.0</version>
@@ -46,8 +56,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-
-
 
 
 </project>
